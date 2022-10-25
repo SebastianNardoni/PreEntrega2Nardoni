@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <link rel="shortcut icon" href="../multimedia/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="../css/estilos.css">
+
+</head>
+<body>
+
+    <header class="parrafoAzul">
+    
+        
+        
+        <img src="../multimedia/LOGO.png" alt="Logo de star Gym" class="imagenLogo">
+        <!--<div class="centrar">-->
+            <nav class="menuPrincipal">
+                <ul class="listas">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./galeria.html">Galeria</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./servicios.html">Servicios</a></li>
+                    <li>Contacto</li>
+                </ul>
+                
+            </nav>
+        <!--</div>-->
+    </header>
+
+    <main>
+        <div class="formulario">
+            <h1><u>Contacto</u></h1>
+        </div>
+        <div class="formulario2">
+            <h2>Para dejarnos un mensaje completar el siguiente formulario</h2>
+        </div>
+        <!-- crear el formulario -->
+
+        <form>
+            
+            <div class="formulario1">
+                <label for="Nombre y Apellido">Nombre y Apellido:</label>
+                <input type="text" name="Nombre y Apellido" required>
+            </div>
+
+            <div class="formulario1">
+                <label for="correo">Correo Electronico:</label>
+                <input type="email" name="correo">
+            </div>
+
+            <div class="formulario1">
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" name="contraseña">
+            </div>
+            
+            <div class="formulario1">
+                <label for="mensaje">Deja tu comentario:</label>    
+                <div class="textarea">
+                    <textarea name="mensaje"  cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <div class="formulario1">
+                <label for="sexo">Sexo:</label>
+                <input type="radio" value="F" name="sexo"> F
+                <input type="radio" value="M" name="sexo"> M
+            </div>
+
+            <div class="formulario1">
+                <label for=""></label>
+                <input type="checkbox" value="1" name="terminos" required> Aceptar terminos y condiciones.
+            </div>
+            <div class="formulario1">
+                <input type="checkbox" value="2" name="terminos"> Aceptar Cookies.
+            </div>
+
+            <div class="formulario1">
+                <input type="submit">
+                <input type="reset">
+            </div>
+            <!--<input type="button">-->
+
+
+        </form>
+    
+
+    </main>
+</body>
+</html>
