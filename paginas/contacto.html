@@ -8,7 +8,7 @@
 
     <link rel="shortcut icon" href="../multimedia/favicon.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/main.css">
 
 </head>
 <body>
@@ -37,57 +37,37 @@
             <h1><u>Contacto</u></h1>
         </div>
         <div class="formulario2">
-            <h2>Para dejarnos un mensaje completar el siguiente formulario</h2>
+            <u><b>para dejarnos un mensaje completar el siguiente formulario</b></u>:</h2>
         </div>
         <!-- crear el formulario -->
 
-        <form>
+        <form action="#" target="" method="get" name="formDatosPersonales">
+
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
+        
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Apellido/s"/>
+        
+            <label for="email" >Email</label>
+            <input type="email" name="email" id="email" placeholder="email" required />
+        
+            <label for="asunto">Asunto</label>
+            <input type ="text" name="asunto" id="asunto" placeholder="titular de la consulta"/>
+        
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
             
-            <div class="formulario1">
-                <label for="Nombre y Apellido">Nombre y Apellido:</label>
-                <input type="text" name="Nombre y Apellido" required>
-            </div>
-
-            <div class="formulario1">
-                <label for="correo">Correo Electronico:</label>
-                <input type="email" name="correo">
-            </div>
-
-            <div class="formulario1">
-                <label for="contraseña">Contraseña:</label>
-                <input type="password" name="contraseña">
-            </div>
-            
-            <div class="formulario1">
-                <label for="mensaje">Deja tu comentario:</label>    
-                <div class="textarea">
-                    <textarea name="mensaje"  cols="30" rows="10"></textarea>
-                </div>
-            </div>
-
-            <div class="formulario1">
-                <label for="sexo">Sexo:</label>
-                <input type="radio" value="F" name="sexo"> F
-                <input type="radio" value="M" name="sexo"> M
-            </div>
-
-            <div class="formulario1">
+            <div class="aceptar">
                 <label for=""></label>
                 <input type="checkbox" value="1" name="terminos" required> Aceptar terminos y condiciones.
             </div>
-            <div class="formulario1">
+            <div class="aceptar">
                 <input type="checkbox" value="2" name="terminos"> Aceptar Cookies.
             </div>
 
-            <div class="formulario1">
-                <input type="submit">
-                <input type="reset">
-            </div>
-            <!--<input type="button">-->
-
-
+            <input type="submit" name="enviar" value="enviar datos"/>
         </form>
-    
 
     </main>
 </body>

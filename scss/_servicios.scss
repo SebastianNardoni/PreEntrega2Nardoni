@@ -1,0 +1,75 @@
+    //SERVICIOS
+.h12{
+    margin: 10px 50px 10px 50px;
+    font-size: 50px;
+    padding: 8px 0px 8px 0px;
+    text-align: center;
+    background-color: #ffb5a7;
+}
+
+.h21{
+    /* grid-area: menu; */
+    margin: 10px 50px 10px 50px;
+    font-size: 30px;
+    padding: 8px 0px 8px 0px;
+    text-align: center;
+}
+
+.servicios1{
+    padding: 25px 0px 25px 0px;
+    font-size: 30px;
+    margin: 10px 50px 10px 50px;
+    text-align: center;
+}
+
+
+.servicios2{
+    border: 4px solid black;
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+}
+
+.s1{
+    grid-area: cabecera;
+        background-color: #64dec0;
+    }
+    
+    .s2{
+    grid-area: menu;
+        background-color: #d90429;
+    }
+    
+    .s3{
+        grid-area: contenido;
+        background-color: #52796f;
+    }
+    
+    .s4{
+        grid-area: barra;
+    background-color: #ffb703;
+    }
+    
+    .s5{
+    grid-area: footer;
+        background-color: #ffb5a7;
+    }
+
+    .servicios{
+        width: auto;
+        margin: 15px;
+        height: auto;
+        display: grid;
+        /* grid-template-columns: auto auto;*/
+        grid-template-rows: 20% 10% auto 10%;
+        /* background-color: lightgreen; */
+        padding: 20px;
+        margin: 0 auto;
+        /* justify-content: stretch; */
+        grid-template-areas:
+                            "cabecera cabecera"
+                            "menu menu"
+                            "contenido barra"
+                            "footer footer";
+    } 

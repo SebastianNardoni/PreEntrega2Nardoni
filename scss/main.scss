@@ -1,0 +1,75 @@
+@import "generales";
+@import "media";
+@import "nosotros";
+@import "servicios";
+@import "contacto";
+@import "galeria";
+
+    .principal{
+        .principal__titulo{
+            margin: 10px 50px 50px 50px;
+            text-align: center;
+            font-size: 70px;
+            padding: 50px 50px 50px 50px;                               
+            /* border-top: solid 12px #52796f;
+            border-right: solid 20px #2f3e46;
+            border-bottom: solid 12px #52796f;
+            border-left: solid 20px #2f3e46;
+        */}
+            .principal__titulo--fondoGris{
+            background-color: #a3b18a;
+            }
+            .principal__subtitulo--verde{
+                background-color:#9cbfb6 ;
+                display: inline-block;
+                margin: 20px 50px 20px 50px;
+            }
+            .principal__3--parrafo{
+            margin: 20px 50px 20px 50px;
+            }
+    }
+
+    .precios{
+        .precios1{
+            margin: 20px 50px 20px 50px;
+            font-size: 20px;
+            padding: 5px 0px 5px 0px;
+        }
+        .precios__subtitulo--fondoVerde{
+            background-color: #52796f;
+            display: inline-block;
+            background-color: #64dec0;
+        }
+        .actividades{
+            border-top: solid 5px #52796f;
+            border-right: solid 10px #2f3e46;
+            border-bottom: solid 5px #52796f;
+            border-left: solid 10px #2f3e46;
+        }
+    }
+
+    .iframe{
+        margin: 20px 50px 20px 50px;
+    }
+
+    .whatsapp{
+        position: fixed;
+        bottom: 30px;
+        right: 50px;
+        .whatsappImg{
+            width: 50px;
+        }
+    }
+
+    .redes{
+        position: fixed;
+        right: 0;
+        bottom: 50%;
+    }
+    .redes img{
+        width: 50px;
+        display: block;
+        }
+
+
+

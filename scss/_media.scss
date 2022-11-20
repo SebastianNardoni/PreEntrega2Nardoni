@@ -1,0 +1,34 @@
+    //MEDIA
+@media (max-width: 480px){
+    .listas{
+        background-color: #a8dadc;
+    }
+    body {
+        font-family: sans-serif;
+    }
+    html{
+        font-size: 62,5%;
+        body{
+            background-color: #ffc8dd;
+        } 
+    }
+}
+@media(max-width: 768px){
+    .menu > div{
+        flex: 1 1 100%;
+    }
+    .h2{
+        display: block;
+    }
+    
+    .h2 > div{
+    width: 90%;
+    padding: 10px;
+    }
+    html{
+        font-size: 62,5%;
+        body{
+            background-color: #cdb4db;
+        }
+    }
+}

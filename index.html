@@ -14,19 +14,16 @@
 
     <link rel="shortcut icon" href="multimedia/favicon.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/main.css">
 
 </head> 
 
 
-<body>
-    <p></p>
-    
-    <p></p>
-
+<body class="container-fluid">
     <hr>
-
-    <header class="parrafoAzul">
+    <header class="parrafoAzul row">
         
         <div class="logo">
         <img src="multimedia/favicon.ico" alt="Logo de star Gym" class="imagenLogo">
@@ -46,13 +43,12 @@
         
     </header>
 
-    <main class="principal">
-        
-
-        <h1 class="principal__titulo principal__titulo--fondoGris">Bienvenidos a Star Gym</h1>
-        <h2 class="principal__subtitulo principal__subtitulo--verde">El mejor gimnasio de la zona:</h2>
-        <p class="principal__3 principal__3--parrafo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sunt necessitatibus itaque impedit culpa harum fugiat. Illo incidunt quam asperiores sapiente molestiae aut! Velit expedita minima itaque sed, obcaecati voluptatibus?</p>
-
+    <main class="row">
+        <div class="principal">
+            <h1 class="principal__titulo principal__titulo--fondoGris col-12">Bienvenidos a Star Gym</h1>
+            <h2 class="principal__subtitulo principal__subtitulo--verde col-md-6 col-sm-12">El mejor gimnasio de la zona:</h2>
+            <p class="principal__3 principal__3--parrafo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sunt necessitatibus itaque impedit culpa harum fugiat. Illo incidunt quam asperiores sapiente molestiae aut! Velit expedita minima itaque sed, obcaecati voluptatibus?</p>
+        </div>
 
     </main>
 
@@ -61,7 +57,7 @@
         <div class="precios1">
             <h3 class="precios__subtitulo precios__subtitulo--fondoVerde">Precios</h3>
 
-                <table border="2px" cellpadding="10 px" cellspacing="10px">
+<!--                 <table border="2px" cellpadding="10 px" cellspacing="10px">
                     <th class="actividades">diferentes tipos de actividades</th> 
                     <th class="actividades">precio</th>
             
@@ -91,18 +87,40 @@
                         <td>$5.000</td>
                     </tr>
 
+                </table> -->
+
+                <table class="table table-dark table-striped">
+                    <th class="actividades">diferentes tipos de actividades</th> 
+                    <th class="actividades">precio</th>
+            
+
+                    <tr> 
+                        <td>Funcional</td> 
+                        <td>$2.500</td>
+                    </tr>
+
+                    <tr>
+                        <td>Aeróbico</td>
+                        <td>$2.000</td>
+                    </tr>
+
+                    <tr>
+                        <td>Calistenia</td>
+                        <td>$2.500</td>
+                    </tr>
+
+                    <tr>
+                        <td>Aparato</td>
+                        <td>$3.000</td>
+                    </tr>
+
+                    <tr>
+                        <td>Pase libre</td>
+                        <td>$5.000</td>
                 </table>
         </div>
     </setion>
 
-    <article>
-        
-        
-    </article>
-
-    <aside>
-        
-    </aside>
     
     <div class="iframe">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.882494521327!2d-60.712178985262895!3d-31.637067531331247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9b7fe326d9f%3A0x3e1403c73ecd7e16!2sSantiago%20del%20Estero%203062%2C%20S3000AOQ%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1664128741241!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -128,6 +146,9 @@
         </div>
     </footer>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     
 </body>
 </html>

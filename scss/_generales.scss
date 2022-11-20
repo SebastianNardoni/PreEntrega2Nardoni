@@ -1,0 +1,48 @@
+    /*GENERALES*/
+html{
+    font-size: 62,5%;
+    body{
+        background-color: beige;
+    }
+}
+
+    /* INDEX */
+    header{
+        position: sticky;
+        top: 10px;
+        z-index: 1000;
+    }
+
+    .imagenLogo{
+        /*display: inline-block;*/
+        display: none;
+    }
+
+    .parrafoAzul{
+        /* grid-area: titulo; */
+        background-image: linear-gradient(to right, #e9edc9, #ccd5ae);
+        /* color: #6a040f; */
+        font-weight: bold;
+        font-size: 20px;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        /*display: inline-block;*/
+        text-align: center;
+        .logo img {
+            width: auto;
+            height: auto;
+            /* display: block; margin: auto; */}
+            .menuPrincipal ul li{
+                display: inline-block;
+                padding: 20px 20px;
+                text-align: center;
+            }
+            .listas{
+                text-align: center;
+                list-style-type: none;
+                line-height: 2;
+                background-size: cover;
+                background-position: center center;
+                /*display:inline-block*/
+            }
+}
