@@ -5,6 +5,10 @@
 @import "contacto";
 @import "galeria";
 
+body{
+    overflow-x: hidden;
+}
+
     .principal{
         .principal__titulo{
             margin: 10px 50px 50px 50px;

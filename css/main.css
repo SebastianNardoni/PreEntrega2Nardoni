@@ -11,23 +11,18 @@ header {
   z-index: 1000; }
 
 .imagenLogo {
-  /*display: inline-block;*/
   display: none; }
 
 .parrafoAzul {
-  /* grid-area: titulo; */
   background-image: linear-gradient(to right, #e9edc9, #ccd5ae);
-  /* color: #6a040f; */
   font-weight: bold;
   font-size: 20px;
   font-style: italic;
   font-family: Arial, Helvetica, sans-serif;
-  /*display: inline-block;*/
   text-align: center; }
   .parrafoAzul .logo img {
     width: auto;
-    height: auto;
-    /* display: block; margin: auto; */ }
+    height: auto; }
   .parrafoAzul .menuPrincipal ul li {
     display: inline-block;
     padding: 20px 20px;
@@ -35,55 +30,120 @@ header {
   .parrafoAzul .listas {
     text-align: center;
     list-style-type: none;
-    line-height: 2;
+    line-height: 2%;
     background-size: cover;
-    background-position: center center;
-    /*display:inline-block*/ }
+    background-position: center center; }
 
-@media (max-width: 480px) {
-  .listas {
-    background-color: #a8dadc; }
+@media screen and (max-width: 480px) {
+  .listas li {
+    width: 25%;
+    display: inline-block; }
   body {
+    background-color: aquamarine;
     font-family: sans-serif; }
-  html {
-    font-size: 62,5%; }
-    html body {
-      background-color: #ffc8dd; } }
+  .h1 {
+    display: block; }
+  .principal__titulo {
+    width: 100%;
+    font-size: 50px; }
+  .iframe {
+    display: flex;
+    padding: auto;
+    margin: 0px; }
+  .aparato {
+    width: 100%; }
+  .centrar {
+    width: 100%;
+    font-size: 200%;
+    display: block; }
+  .ajustes {
+    display: inline-block;
+    font-size: 50%; }
+  .centrar {
+    text-align: center;
+    display: block; }
+  img {
+    width: 100%; }
+  .imagenn {
+    width: 100%;
+    height: 100%;
+    display: block; }
+  .h11 {
+    width: 100%;
+    height: 100%;
+    display: inline-flex; }
+  .h11 {
+    display: block;
+    width: auto;
+    margin: 20px, 20px; }
+  .subtitulo {
+    display: inline;
+    width: 100%; }
+  .division {
+    text-align: center;
+    width: 100%; } }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .menu > div {
-    flex: 1 1 100%; }
+    flex: 100%; }
+  .h11 {
+    text-align: center;
+    width: auto;
+    margin: 20px, 20px; }
   .h2 {
     display: block; }
+  /* .aparato{
+        width: 100%;
+        height: 100%;
+        flex: auto;
+    } */
+  img {
+    width: 100%;
+    height: 100%;
+    flex: auto; }
   .h2 > div {
-    width: 90%;
+    width: 100%;
     padding: 10px; }
   html {
     font-size: 62,5%; }
     html body {
-      background-color: #cdb4db; } }
+      background-color: #cdb4db; }
+  .division {
+    width: 100%; }
+  .subtitulo {
+    width: 100%;
+    text-align: center; }
+  .imagenn {
+    width: 50%; } }
 
 .h1 {
+  margin: 10px 50px 10px 50px;
   font-size: 50px;
   padding: 5px 0px 5px 0px;
-  color: #e76f51;
   text-align: center;
-  background-color: #264653;
-  margin: 10px 50px 10px 50px; }
+  background-color: #d90429;
+  top: 50%;
+  left: 50%; }
 
 .h2 {
   display: flex; }
-
-.h2 > div {
-  width: 50%;
-  padding: 10px; }
+  .h2 div {
+    width: 50%;
+    padding: 10px; }
 
 .h12 {
   margin: 10px 50px 10px 50px;
   font-size: 50px;
-  padding: 8px 0px 8px 0px;
+  padding: 5px 0px 5px 0px;
   text-align: center;
-  background-color: #ffb5a7; }
+  background-color: #d90429;
+  top: 50%;
+  left: 50%;
+  /* margin: 10px 50px 10px 50px;
+    font-size: 50px;
+    padding: 8px 0px 8px 0px;
+    text-align: center;
+    background-color: #d90429; */ }
 
 .h21 {
   /* grid-area: menu; */
@@ -210,16 +270,20 @@ textarea {
 * {
   box-sizing: border-box; }
 
-/*  img{
-        width: 100%;
-    } */
 .h11 {
-  padding: 8px 0px 8px 0px;
-  font-size: 50px;
-  color: #ffc300;
-  background-color: black;
+  margin: 10px 50px 10px 50px;
+  font-size: 20px;
+  padding: 5px 0px 5px 0px;
   text-align: center;
-  margin: 10px 50px 10px 50px; }
+  background-color: #d90429;
+  top: 50%;
+  left: 50%;
+  /*  padding: 8px 0px 8px 0px;
+        font-size: 50px;
+        color: #ffc300;
+        background-color: #d90429;
+        text-align: center;
+        margin: 10px 50px 10px 50px; */ }
 
 .section .subtitulo {
   padding: 25px 0px 25px 0px;
@@ -277,6 +341,9 @@ textarea {
 
 .centrar {
   text-align: center; }
+
+body {
+  overflow-x: hidden; }
 
 .principal .principal__titulo {
   margin: 10px 50px 50px 50px;
