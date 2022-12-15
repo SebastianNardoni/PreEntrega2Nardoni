@@ -55,13 +55,11 @@ header {
   .centrar {
     width: 100%;
     font-size: 200%;
-    display: block; }
+    display: block;
+    text-align: center; }
   .ajustes {
     display: inline-block;
     font-size: 50%; }
-  .centrar {
-    text-align: center;
-    display: block; }
   img {
     width: 100%; }
   .imagenn {
@@ -92,14 +90,8 @@ header {
     margin: 20px, 20px; }
   .h2 {
     display: block; }
-  /* .aparato{
-        width: 100%;
-        height: 100%;
-        flex: auto;
-    } */
   img {
     width: 100%;
-    height: 100%;
     flex: auto; }
   .h2 > div {
     width: 100%;
@@ -131,6 +123,12 @@ header {
     width: 50%;
     padding: 10px; }
 
+.centrar {
+  font-size: 40px; }
+
+.centrar1 {
+  font-size: 25px; }
+
 .h12 {
   margin: 10px 50px 10px 50px;
   font-size: 50px;
@@ -138,24 +136,10 @@ header {
   text-align: center;
   background-color: #d90429;
   top: 50%;
-  left: 50%;
-  /* margin: 10px 50px 10px 50px;
-    font-size: 50px;
-    padding: 8px 0px 8px 0px;
-    text-align: center;
-    background-color: #d90429; */ }
+  left: 50%; }
 
 .h21 {
-  /* grid-area: menu; */
-  margin: 10px 50px 10px 50px;
-  font-size: 30px;
-  padding: 8px 0px 8px 0px;
-  text-align: center; }
-
-.servicios1 {
-  padding: 25px 0px 25px 0px;
-  font-size: 30px;
-  margin: 10px 50px 10px 50px;
+  font-size: 50px;
   text-align: center; }
 
 .servicios2 {
@@ -167,7 +151,11 @@ header {
 
 .s1 {
   grid-area: cabecera;
-  background-color: #64dec0; }
+  background-color: beige;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 25px; }
 
 .s2 {
   grid-area: menu;
@@ -182,26 +170,24 @@ header {
   background-color: #ffb703; }
 
 .s5 {
-  grid-area: footer;
-  background-color: #ffb5a7; }
+  background-color: beige;
+  border: 0px;
+  grid-area: footer; }
 
 .servicios {
   width: auto;
   margin: 15px;
   height: auto;
   display: grid;
-  /* grid-template-columns: auto auto;*/
   grid-template-rows: 20% 10% auto 10%;
-  /* background-color: lightgreen; */
   padding: 20px;
   margin: 0 auto;
-  /* justify-content: stretch; */
   grid-template-areas: "cabecera cabecera" "menu menu" "contenido barra" "footer footer"; }
 
 .formulario {
   margin: 10px 50px 10px 50px;
-  font-size: 20px;
-  padding: 5px 0px 5px 0px;
+  font-size: 25px;
+  /* padding: 5px 0px 5px 0px; */
   text-align: center;
   background-color: #d90429;
   top: 50%;
@@ -260,7 +246,6 @@ textarea {
   border-radius: 3px;
   background-color: #f6f6f6;
   margin: 8px 0;
-  /*resize: vertical | horizontal | none | both*/
   resize: none;
   display: block; }
 
@@ -272,18 +257,12 @@ textarea {
 
 .h11 {
   margin: 10px 50px 10px 50px;
-  font-size: 20px;
+  font-size: 50px;
   padding: 5px 0px 5px 0px;
   text-align: center;
   background-color: #d90429;
   top: 50%;
-  left: 50%;
-  /*  padding: 8px 0px 8px 0px;
-        font-size: 50px;
-        color: #ffc300;
-        background-color: #d90429;
-        text-align: center;
-        margin: 10px 50px 10px 50px; */ }
+  left: 50%; }
 
 .section .subtitulo {
   padding: 25px 0px 25px 0px;
@@ -306,8 +285,7 @@ textarea {
 .section .aparatos {
   display: flex;
   padding: 5px;
-  flex-wrap: wrap;
-  /* background-color: #264653; */ }
+  flex-wrap: wrap; }
 
 .section .aparato {
   flex: 25%;
@@ -315,7 +293,6 @@ textarea {
   width: 50px; }
 
 .section .aparato img {
-  /*  width: 300px; */
   margin-top: 10px;
   font-size: 5px; }
 
@@ -349,15 +326,16 @@ body {
   margin: 10px 50px 50px 50px;
   text-align: center;
   font-size: 70px;
-  padding: 50px 50px 50px 50px;
-  /* border-top: solid 12px #52796f;
-            border-right: solid 20px #2f3e46;
-            border-bottom: solid 12px #52796f;
-            border-left: solid 20px #2f3e46;
-        */ }
+  padding: 50px 50px 50px 50px; }
 
 .principal .principal__titulo--fondoGris {
-  background-color: #a3b18a; }
+  margin: 10px 50px 10px 50px;
+  font-size: 50px;
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+  background-color: #d90429;
+  top: 50%;
+  left: 50%; }
 
 .principal .principal__subtitulo--verde {
   background-color: #9cbfb6;
@@ -365,6 +343,9 @@ body {
   margin: 20px 50px 20px 50px; }
 
 .principal .principal__3--parrafo {
+  margin: 20px 50px 20px 50px; }
+
+.principal .texto {
   margin: 20px 50px 20px 50px; }
 
 .precios .precios1 {

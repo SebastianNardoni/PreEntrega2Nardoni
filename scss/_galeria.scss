@@ -5,19 +5,13 @@
 
     .h11{
         margin: 10px 50px 10px 50px;
-        font-size: 20px;
+        font-size: 50px;
         padding: 5px 0px 5px 0px;
         text-align: center;
         background-color: #d90429;
         top: 50%;
         left: 50%;
         
-       /*  padding: 8px 0px 8px 0px;
-        font-size: 50px;
-        color: #ffc300;
-        background-color: #d90429;
-        text-align: center;
-        margin: 10px 50px 10px 50px; */
     }
 
     .section{
@@ -43,7 +37,6 @@
             display: flex;
             padding: 5px;
             flex-wrap: wrap;
-            /* background-color: #264653; */
         }
         .aparato{
             flex: 25%;
@@ -52,7 +45,6 @@
             }
             
             .aparato img{
-               /*  width: 300px; */
                 margin-top: 10px;
                 font-size: 5px;
             }

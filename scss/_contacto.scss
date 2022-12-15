@@ -1,13 +1,12 @@
     //CONTACTO
 .formulario{
     margin: 10px 50px 10px 50px;
-    font-size: 20px;
-    padding: 5px 0px 5px 0px;
+    font-size: 25px;
+    /* padding: 5px 0px 5px 0px; */
     text-align: center;
     background-color: #d90429;
     top: 50%;
     left: 50%;
-    
 }
 
 .formulario2{
@@ -68,7 +67,6 @@ textarea{
 	border-radius:3px;
 	background-color:#f6f6f6;			
 	margin:8px 0;
-	/*resize: vertical | horizontal | none | both*/
 	resize:none;
 	display:block;
 }

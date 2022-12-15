@@ -7,28 +7,12 @@
     background-color: #d90429;
     top: 50%;
     left: 50%;
-    /* margin: 10px 50px 10px 50px;
-    font-size: 50px;
-    padding: 8px 0px 8px 0px;
-    text-align: center;
-    background-color: #d90429; */
 }
 
 .h21{
-    /* grid-area: menu; */
-    margin: 10px 50px 10px 50px;
-    font-size: 30px;
-    padding: 8px 0px 8px 0px;
+    font-size: 50px;
     text-align: center;
 }
-
-.servicios1{
-    padding: 25px 0px 25px 0px;
-    font-size: 30px;
-    margin: 10px 50px 10px 50px;
-    text-align: center;
-}
-
 
 .servicios2{
     border: 4px solid black;
@@ -39,8 +23,12 @@
 }
 
 .s1{
-    grid-area: cabecera;
-        background-color: #64dec0;
+        grid-area: cabecera;
+        background-color: beige;
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+        font-size: 25px;
     }
     
     .s2{
@@ -55,12 +43,13 @@
     
     .s4{
         grid-area: barra;
-    background-color: #ffb703;
+        background-color: #ffb703;
     }
     
     .s5{
-    grid-area: footer;
-        background-color: #ffb5a7;
+        background-color: beige;
+        border: 0px;
+        grid-area: footer;
     }
 
     .servicios{
@@ -68,12 +57,9 @@
         margin: 15px;
         height: auto;
         display: grid;
-        /* grid-template-columns: auto auto;*/
         grid-template-rows: 20% 10% auto 10%;
-        /* background-color: lightgreen; */
         padding: 20px;
         margin: 0 auto;
-        /* justify-content: stretch; */
         grid-template-areas:
                             "cabecera cabecera"
                             "menu menu"
